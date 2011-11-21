@@ -1,4 +1,0 @@
-*:first-child+html .group, *:first-child+html .menuItem p, *:first-child+html .withPrice, *:first-child+html ul.withPrice li { /* IE7 */
-min-height: 1px;
-}
-*:first-child+html ul.withPrice li {width: 210px;}
