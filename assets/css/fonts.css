@@ -1,0 +1,103 @@
+/* @font-face
+---------------------------------------------------------------------- */
+
+@font-face {
+    font-family: 'NobileRegular';
+    src: url('../type/nobile-webfont.eot');
+    src : local("?"),
+    	 url('../type/nobile/nobile-webfont.eot?#iefix') format('eot'),
+         url('../type/nobile/nobile-webfont.woff') format('woff'),
+         url('../type/nobile/nobile-webfont.ttf') format('truetype'),
+         url('../type/nobile/nobile-webfont.svg#webfontsKo9tqe9') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'TradeGothicRegular';
+    src: url('../type/tradegothic/tradegothic-condeighteen-webfont.eot');
+    src : local("?"),
+		 url('../type/tradegothic/tradegothic-condeighteen-webfont.eot?#iefix') format('eot'),    
+         url('../type/tradegothic/tradegothic-condeighteen-webfont.woff') format('woff'),
+         url('../type/tradegothic/type/tradegothic-condeighteen-webfont.ttf') format('truetype'),
+         url('../type/tradegothic/tradegothic-condeighteen-webfont.svg#TradeGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TradeGothicLTStdBdCnNo.20';
+    src: url('../type/tradegothicltstd-bdcn20-webfont.eot'); 
+	src : local("?"),
+		 url('../type/tradegothicltstd-bdcn20-webfont.eot?#iefix') format('eot'),	
+         url('../type/tradegothicltstd-bdcn20-webfont.woff') format('woff'),
+         url('../type/tradegothicltstd-bdcn20-webfont.ttf') format('truetype'),
+         url('../type/tradegothicltstd-bdcn20-webfont.svg#TradeGothicLTStdBdCnNo.20') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AWConquerorSansLight';
+    src: url('../type/conqueror-sans/awconquerorsans-light-webfont.eot');
+   	src : local("?"),
+		 url('../type/conqueror-sans/awconquerorsans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/conqueror-sans/awconquerorsans-light-webfont.woff') format('woff'),
+         url('../type/conqueror-sans/awconquerorsans-light-webfont.ttf') format('truetype'),
+         url('../type/conqueror-sans/awconquerorsans-light-webfont.svg#AWConquerorSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FuturaStdBold';
+    src: url('../type/futura/futurastd-bold-webfont.eot');
+   	src : local("?"),    
+    	 url('../type/futura/futurastd-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/futura/futurastd-bold-webfont.woff') format('woff'),
+         url('../type/futura/futurastd-bold-webfont.ttf') format('truetype'),
+         url('../type/futura/futurastd-bold-webfont.svg#FuturaStdBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FuturaStdExtraBold';
+    src: url('../type/futura/futurastd-extrabold-webfont.eot');
+   	src : local("?"),    
+		 url('../type/futura/futurastd-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/futura/futurastd-extrabold-webfont.woff') format('woff'),
+         url('../type/futura/futurastd-extrabold-webfont.ttf') format('truetype'),
+         url('../type/futura/futurastd-extrabold-webfont.svg#FuturaStdExtraBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'FuturaStdHeavy';
+    src: url('../type/futura/futurastd-heavy-webfont.eot');
+	src : local("?"),    
+    	 url('../type/futura/futurastd-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/futura/futurastd-heavy-webfont.woff') format('woff'),
+         url('../type/futura/futurastd-heavy-webfont.ttf') format('truetype'),
+         url('../type/futura/futurastd-heavy-webfont.svg#FuturaStdHeavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PerpetuaItalic';
+    src: url('../type/perpetua/perpetua_italic-webfont.eot');
+	src : local("?"),    
+		 url('../type/perpetua/perpetua_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/perpetua/perpetua_italic-webfont.woff') format('woff'),
+         url('../type/perpetua/perpetua_italic-webfont.ttf') format('truetype'),
+         url('../type/perpetua/perpetua_italic-webfont.svg#PerpetuaItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DroidSansRegular';
+	src : local("?"),        
+    src: url('../type/droid/droidsans-webfont.eot');
+    src: url('../type/droid/droidsans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/droid/droidsans-webfont.woff') format('woff'),
+         url('../type/droid/droidsans-webfont.ttf') format('truetype'),
+         url('../type/droid/droidsans-webfont.svg#DroidSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

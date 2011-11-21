@@ -111,3 +111,5 @@ input, select {
 	clear: both;
 	visibility: hidden;
 }
+* html .group 				{zoom: 1;} /* ie6 */
+*:first-child+html .group 	{zoom: 1;} /* ie7 */

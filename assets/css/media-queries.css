@@ -1,0 +1,48 @@
+/* -----------------------------------------------------------------
+	Media Queries for Mobile and Tablet  
+-----------------------------------------------------------------*/
+
+/* Kindle and Nook mode (portrait and landscape) ----------- */
+
+@media screen and (max-width: 600px) { 
+	html {/* Disable iOS/WinMobile font size changes */
+		-ms-text-size-adjust: none;
+		-webkit-text-size-adjust: none;
+	}
+}
+
+/* 10-inches table, ipad (portrait) ----------- */
+
+@media screen and (max-width: 768px), screen and (max-width: 870px) {
+
+}
+
+/* Few android phones (landscape) ----------- */
+
+@media screen and (max-width: 520px) {
+
+}
+
+/* iPhones (portrait and landscape) ----------- */
+
+@media screen and (max-width: 320px), screen and (max-width: 480px) {
+
+}
+
+/* -----------------------------------------------------------------
+	Desktop version  
+-----------------------------------------------------------------*/
+
+/* Desktop version above 768 */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Desktop version above 1024 */
+@media screen and (min-width: 1025px) {
+
+}
+/* Desktop version above 1024 */
+@media screen and (min-width: 1200px) {
+
+}

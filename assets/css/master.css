@@ -24,7 +24,7 @@ text-decoration: none;
 ---------------------------------------------------------------------- */
 body {
 	background: url(../images/your-image-goes-here.jpg) repeat; 
-	font-family: Palatino, Georgia, serif; 
+	font-family: "DroidSansRegular", "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 75%; /* 75% = 12px */
 	line-height: 1.8em;
 }
