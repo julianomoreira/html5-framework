@@ -1,0 +1,68 @@
+/*
+
+	Your Company Name
+	Designed Juliano Moreira { http://www.julianomoreira.com }
+	Version 1.0
+	
+	STYLESHEET FOR SUPER ANCIENT BROWSERS
+	
+	- Defines styles for browsers that don't support @import
+	- Only body & links need styling
+	- Markup should be nice so site should still be usable
+	
+*/
+
+/* Links
+---------------------------------------------------------------------- */
+a:link, a:visited {
+color: #204d72;
+}
+a:hover {
+text-decoration: none;
+}
+/* 1.BODY
+---------------------------------------------------------------------- */
+body {
+	background: url(../images/your-image-goes-here.jpg) repeat; 
+	font-family: Palatino, Georgia, serif; 
+	font-size: 75%; /* 75% = 12px */
+	line-height: 1.8em;
+}
+#container {
+	width: 600px;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+#container h1 {
+	font-size: 6.5em;
+	line-height: 1em;
+	letter-spacing: -.0625em;
+}
+section {
+	margin: 1.5em 0 0 0;
+}
+section h2 {
+	font-size: 2em;
+	margin: 0 0 .25em 0;
+}
+/* 2.ACCESSIBILITY
+---------------------------------------------------------------------- */
+#accessibility {
+	display: none;
+}
+
+/* !3.AVIGATION
+---------------------------------------------------------------------- */
+
+/* !4.LAYOUT
+---------------------------------------------------------------------- */
+
+/* !5.HEADER
+---------------------------------------------------------------------- */
+
+/* !6.CONTENT
+---------------------------------------------------------------------- */
+
+/* !7.SIDEBAR
+---------------------------------------------------------------------- */
+
