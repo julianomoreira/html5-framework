@@ -1,20 +1,21 @@
+<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="ie ie6" dir="ltr" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="ie ie7" dir="ltr" lang="en-US"> <![endif]-->
 <!--[if IE 8]>    <html class="ie ie8" dir="ltr" lang="en-US"> <![endif]-->
 <!--[if IE 9]>    <html class="ie ie9" dir="ltr" lang="en-US"> <![endif]-->
 <!--[if IE 10]>   <html class="ie ie10" dir="ltr" lang="en-US"> <![endif]-->
-<!--[if !IE]> --> <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<!--[if !IE]> --> <html dir="ltr" lang="en-US"> <![endif]-->
 	<head>
 		<title>Your Site | HTML5/CSS3 Agile Framework</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<meta name="author" content="Juliano Moreira Dasilva" />				
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">		
 
 		<!-- stylesheets -->
-		<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="assets/css/ie6.css" /><![endif]-->
-		<!--[if IE 7]><link rel="stylesheet" type="text/css" href="assets/css/ie7.css" /><![endif]-->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/master.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/fonts.css" />		
 		<link rel="stylesheet" type="text/css" href="assets/css/media-queries.css" />
@@ -23,37 +24,111 @@
 		<!-- scripts (if possible place these scripts at the bottom) -->
 		<script src="assets/js/jquery-1.4.2.min.js"></script>
 		<script src="assets/js/html5.js"></script>
-		<!--[if lt IE 7]><script src="assets/ie7/IE7.js" type="text/javascript"></script><![endif]-->		
 		<!-- /scripts -->
+		
+		<!-- scripts (if possible place these scripts at the bottom) -->
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	
+	
 		
 </head>
 
 	<body>
 	<div id="container">
-	<h1>The best HTML5 framework available.</h1>
+	<h1>The BEST HTML5 framework available.</h1>
 	
 	<div id="content">
 	
 	<section>
-		<h2>Your Heading</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam dignissim libero ut euismod. Nulla non consectetur erat. Sed ac risus orci, eu vestibulum lectus. Aenean hendrerit odio sit amet ante auctor interdum. Duis in dolor risus, quis vehicula tortor. Praesent felis lacus, luctus in vulputate vitae, tincidunt non sapien. Etiam metus dolor, blandit et rhoncus vitae, pharetra non magna. Quisque quis vestibulum enim. Sed elementum interdum placerat. Nunc nec lectus erat, et molestie lacus. Pellentesque tempus commodo odio, nec blandit leo eleifend vel. Suspendisse accumsan sagittis nulla ac ultricies.</p>
+		<div class="grid1 group">			
+			<h2><span>Two Column Layout</span></h2>
+			<div class="col">
+				<div class="inner">
+					<p>Bacon ipsum dolor sit amet ut deserunt pork chop sunt culpa tail. Pork chop kielbasa salami flank, eu jerky meatloaf et cillum leberkäse. Incididunt consequat fatback occaecat eu duis. Magna pastrami esse salami, in pancetta jerky brisket. Pariatur ut salami dolor pork belly, tongue ut enim reprehenderit aliqua bresaola. Bacon velit tenderloin, nisi dolore venison ut. Reprehenderit hamburger excepteur, commodo chuck officia rump.</p>
+				</div>
+			</div> <!-- end col -->
+		</div>
 	</section>
 
+	<hr class="doubleLine" />	
+	
 	<section>
-		<h2>Your Heading</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam dignissim libero ut euismod. Nulla non consectetur erat. Sed ac risus orci, eu vestibulum lectus. Aenean hendrerit odio sit amet ante auctor interdum. Duis in dolor risus, quis vehicula tortor. Praesent felis lacus, luctus in vulputate vitae, tincidunt non sapien. Etiam metus dolor, blandit et rhoncus vitae, pharetra non magna. Quisque quis vestibulum enim. Sed elementum interdum placerat. Nunc nec lectus erat, et molestie lacus. Pellentesque tempus commodo odio, nec blandit leo eleifend vel. Suspendisse accumsan sagittis nulla ac ultricies.</p>
+		<div class="grid2 group">			
+			<h2><span>Two Column Layout</span></h2>
+			<div class="col">
+				<div class="inner">
+					<p>Bacon ipsum dolor sit amet ut deserunt pork chop sunt culpa tail. Pork chop kielbasa salami flank, eu jerky meatloaf et cillum leberkäse. Incididunt consequat fatback occaecat eu duis. Magna pastrami esse salami, in pancetta jerky brisket. Pariatur ut salami dolor pork belly, tongue ut enim reprehenderit aliqua bresaola. Bacon velit tenderloin, nisi dolore venison ut. Reprehenderit hamburger excepteur, commodo chuck officia rump.</p>
+				</div>
+			</div> <!-- end col -->
+			<div class="col">
+				<div class="inner">
+					<p>Ex swine deserunt filet mignon. Brisket pastrami leberkäse ham beef, aliquip est tempor chicken andouille bacon. Deserunt kielbasa salami, proident sunt shoulder ut pariatur. Meatball consequat cow veniam, turkey elit aliqua. Frankfurter sunt pork belly nisi, velit turducken cillum in shankle hamburger sed occaecat ham hock. Prosciutto ea ham hock exercitation. Ut ad velit pork chop, shoulder sunt in beef ribs ham chuck drumstick magna.</p>
+				</div>
+			</div> <!-- end col -->			
+			
+		</div>
 	</section>
 
+	<hr class="doubleLine" />	
+	
 	<section>
-		<h2>Your Heading</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam dignissim libero ut euismod. Nulla non consectetur erat. Sed ac risus orci, eu vestibulum lectus. Aenean hendrerit odio sit amet ante auctor interdum. Duis in dolor risus, quis vehicula tortor. Praesent felis lacus, luctus in vulputate vitae, tincidunt non sapien. Etiam metus dolor, blandit et rhoncus vitae, pharetra non magna. Quisque quis vestibulum enim. Sed elementum interdum placerat. Nunc nec lectus erat, et molestie lacus. Pellentesque tempus commodo odio, nec blandit leo eleifend vel. Suspendisse accumsan sagittis nulla ac ultricies.</p>
+		<div class="grid3 group">			
+			<h2><span>Three Column Layout</span></h2>
+			<div class="col">
+				<div class="inner">
+					<p>Bacon ipsum dolor sit amet ut deserunt pork chop sunt culpa tail. Pork chop kielbasa salami flank, eu jerky meatloaf et cillum leberkäse. Incididunt consequat fatback occaecat eu duis. Magna pastrami esse salami, in pancetta jerky brisket. Pariatur ut salami dolor pork belly, tongue ut enim reprehenderit aliqua bresaola. Bacon velit tenderloin, nisi dolore venison ut. Reprehenderit hamburger excepteur, commodo chuck officia rump.</p>
+				</div>
+			</div> <!-- end col -->
+			<div class="col">
+				<div class="inner">
+					<p>Ex swine deserunt filet mignon. Brisket pastrami leberkäse ham beef, aliquip est tempor chicken andouille bacon. Deserunt kielbasa salami, proident sunt shoulder ut pariatur. Meatball consequat cow veniam, turkey elit aliqua. Frankfurter sunt pork belly nisi, velit turducken cillum in shankle hamburger sed occaecat ham hock. Prosciutto ea ham hock exercitation. Ut ad velit pork chop, shoulder sunt in beef ribs ham chuck drumstick magna.</p>
+				</div>
+			</div> <!-- end col -->
+			<div class="col">
+				<div class="inner">
+					<p>Ex swine deserunt filet mignon. Brisket pastrami leberkäse ham beef, aliquip est tempor chicken andouille bacon. Deserunt kielbasa salami, proident sunt shoulder ut pariatur. Meatball consequat cow veniam, turkey elit aliqua. Frankfurter sunt pork belly nisi, velit turducken cillum in shankle hamburger sed occaecat ham hock. Prosciutto ea ham hock exercitation. Ut ad velit pork chop, shoulder sunt in beef ribs ham chuck drumstick magna.</p>
+				</div>
+			</div> <!-- end col -->						
+		</div>
 	</section>
 
+	<hr class="doubleLine" />	
+	
 	<section>
-		<h2>Your Heading</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam dignissim libero ut euismod. Nulla non consectetur erat. Sed ac risus orci, eu vestibulum lectus. Aenean hendrerit odio sit amet ante auctor interdum. Duis in dolor risus, quis vehicula tortor. Praesent felis lacus, luctus in vulputate vitae, tincidunt non sapien. Etiam metus dolor, blandit et rhoncus vitae, pharetra non magna. Quisque quis vestibulum enim. Sed elementum interdum placerat. Nunc nec lectus erat, et molestie lacus. Pellentesque tempus commodo odio, nec blandit leo eleifend vel. Suspendisse accumsan sagittis nulla ac ultricies.</p>
+		<div class="grid4 group">			
+			<h2><span>Four Column Layout</span></h2>
+			<div class="col">
+				<div class="inner">
+					<p>Bacon ipsum dolor sit amet ut deserunt pork chop sunt culpa tail. Pork chop kielbasa salami flank, eu jerky meatloaf et cillum leberkäse. Incididunt consequat fatback occaecat eu duis. Magna pastrami esse salami, in pancetta jerky brisket. Pariatur ut salami dolor pork belly, tongue ut enim reprehenderit aliqua bresaola. Bacon velit tenderloin, nisi dolore venison ut. Reprehenderit hamburger excepteur, commodo chuck officia rump.</p>
+				</div>
+			</div> <!-- end col -->
+			<div class="col">
+				<div class="inner">
+					<p>Ex swine deserunt filet mignon. Brisket pastrami leberkäse ham beef, aliquip est tempor chicken andouille bacon. Deserunt kielbasa salami, proident sunt shoulder ut pariatur. Meatball consequat cow veniam, turkey elit aliqua. Frankfurter sunt pork belly nisi, velit turducken cillum in shankle hamburger sed occaecat ham hock. Prosciutto ea ham hock exercitation. Ut ad velit pork chop, shoulder sunt in beef ribs ham chuck drumstick magna.</p>
+				</div>
+			</div> <!-- end col -->
+			<div class="col">
+				<div class="inner">
+					<p>Ex swine deserunt filet mignon. Brisket pastrami leberkäse ham beef, aliquip est tempor chicken andouille bacon. Deserunt kielbasa salami, proident sunt shoulder ut pariatur. Meatball consequat cow veniam, turkey elit aliqua. Frankfurter sunt pork belly nisi, velit turducken cillum in shankle hamburger sed occaecat ham hock. Prosciutto ea ham hock exercitation. Ut ad velit pork chop, shoulder sunt in beef ribs ham chuck drumstick magna.</p>
+				</div>
+			</div> <!-- end col -->						
+			<div class="col">
+				<div class="inner">
+					<p>Ex swine deserunt filet mignon. Brisket pastrami leberkäse ham beef, aliquip est tempor chicken andouille bacon. Deserunt kielbasa salami, proident sunt shoulder ut pariatur. Meatball consequat cow veniam, turkey elit aliqua. Frankfurter sunt pork belly nisi, velit turducken cillum in shankle hamburger sed occaecat ham hock. Prosciutto ea ham hock exercitation. Ut ad velit pork chop, shoulder sunt in beef ribs ham chuck drumstick magna.</p>
+				</div>
+			</div> <!-- end col -->						
+		</div>
 	</section>
+
 	</div><!-- content -->
+	<div class="pushMe"></div>
 	</div><!-- container -->
+	<footer>
+		<section>
+			<p>The best HTML5 Gridded framework. Copyright&#174; Juliano Moreira Dasilva</p>
+		</section>
+	</footer>
 	</body>
 </html>
