@@ -2,10 +2,21 @@
 ---------------------------------------------------------------------- */
 
 @font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('../type/league_gothic/league_gothic-webfont.eot');
+	src : local("?"),
+    	 url('../type/league_gothic/league_gothic-webfont.eot?#iefix') format('eot'),
+         url('../type/league_gothic/league_gothic-webfont.woff') format('woff'),
+         url('../type/league_gothic/league_gothic-webfont.ttf') format('truetype'),
+         url('../type/league_gothic/league_gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'NobileRegular';
-    src: url('../type/nobile-webfont.eot');
+    src: url('../type/nobile/nobile-webfont.eot');
     src : local("?"),
-    	 url('../type/nobile/nobile-webfont.eot?#iefix') format('eot'),
+    	 url('../type/type/nobile/nobile-webfont.eot?#iefix') format('eot'),
          url('../type/nobile/nobile-webfont.woff') format('woff'),
          url('../type/nobile/nobile-webfont.ttf') format('truetype'),
          url('../type/nobile/nobile-webfont.svg#webfontsKo9tqe9') format('svg');
@@ -25,12 +36,12 @@
 }
 @font-face {
     font-family: 'TradeGothicLTStdBdCnNo.20';
-    src: url('../type/tradegothicltstd-bdcn20-webfont.eot'); 
+    src: url('../type/tradegothic/tradegothicltstd-bdcn20-webfont.eot'); 
 	src : local("?"),
-		 url('../type/tradegothicltstd-bdcn20-webfont.eot?#iefix') format('eot'),	
-         url('../type/tradegothicltstd-bdcn20-webfont.woff') format('woff'),
-         url('../type/tradegothicltstd-bdcn20-webfont.ttf') format('truetype'),
-         url('../type/tradegothicltstd-bdcn20-webfont.svg#TradeGothicLTStdBdCnNo.20') format('svg');
+		 url('../type/tradegothic/tradegothicltstd-bdcn20-webfont.eot?#iefix') format('eot'),	
+         url('../type/tradegothic/tradegothicltstd-bdcn20-webfont.woff') format('woff'),
+         url('../type/tradegothic/tradegothicltstd-bdcn20-webfont.ttf') format('truetype'),
+         url('../type/tradegothic/tradegothicltstd-bdcn20-webfont.svg#TradeGothicLTStdBdCnNo.20') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -80,6 +91,17 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'PerpetuaRegular';
+    src: url('../type/perpetua/perpetua-webfont.eot');
+	src : local("?"),    
+		 url('../type/perpetua/perpetua-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/perpetua/perpetua-webfont.woff') format('woff'),
+         url('../type/perpetua/perpetua-webfont.ttf') format('truetype'),
+         url('../type/perpetua/perpetua-webfont.svg#PerpetuaItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'PerpetuaItalic';
     src: url('../type/perpetua/perpetua_italic-webfont.eot');
 	src : local("?"),    
@@ -100,4 +122,59 @@
          url('../type/droid/droidsans-webfont.svg#DroidSansRegular') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima';
+	src : local("?"),        
+    src: url('../type/proxima-nova/proximanova-regular-webfont-webfont.eot');
+    src: url('../type/proxima-nova/proximanova-regular-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/proxima-nova/proximanova-regular-webfont-webfont.woff') format('woff'),
+         url('../type/proxima-nova/proximanova-regular-webfont-webfont.ttf') format('truetype'),
+         url('../type/proxima-nova/proximanova-regular-webfont-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima';
+	src : local("?"),        
+    src: url('../type/proxima-nova/proximanova-regitalic-webfont-webfont.eot');
+    src: url('../type/proxima-nova/proximanova-regitalic-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/proxima-nova/proximanova-regitalic-webfont-webfont.woff') format('woff'),
+         url('../type/proxima-nova/proximanova-regitalic-webfont-webfont.ttf') format('truetype'),
+         url('../type/proxima-nova/proximanova-regitalic-webfont-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Proxima';
+	src : local("?"),        
+    src: url('../type/proxima-nova/proximanova-light-webfont-webfont.eot');
+    src: url('../type/proxima-nova/proximanova-light-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/proxima-nova/proximanova-light-webfont-webfont.woff') format('woff'),
+         url('../type/proxima-nova/proximanova-light-webfont-webfont.ttf') format('truetype'),
+         url('../type/proxima-nova/proximanova-light-webfont-webfont.svg') format('svg');
+    font-weight:  100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima';
+	src : local("?"),        
+    src: url('../type/proxima-nova/proximanova-semibold-webfont-webfont.eot');
+    src: url('../type/proxima-nova/proximanova-semibold-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/proxima-nova/proximanova-semibold-webfont-webfont.woff') format('woff'),
+         url('../type/proxima-nova/proximanova-semibold-webfont-webfont.ttf') format('truetype'),
+         url('../type/proxima-nova/proximanova-semibold-webfont-webfont.svg') format('svg');
+    font-weight:  300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima';
+	src : local("?"),        
+    src: url('../type/proxima-nova/proximanova-semibolditalic-webfont-webfont.eot');
+    src: url('../type/proxima-nova/proximanova-semibolditalic-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/proxima-nova/proximanova-semibolditalic-webfont-webfont.woff') format('woff'),
+         url('../type/proxima-nova/proximanova-semibolditalic-webfont-webfont.ttf') format('truetype'),
+         url('../type/proxima-nova/proximanova-semibolditalic-webfont-webfont.svg') format('svg');
+    font-weight:  300;
+    font-style: italic;
 }
